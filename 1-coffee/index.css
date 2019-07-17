@@ -1,0 +1,60 @@
+body {
+    background-color: lavender;
+}
+
+p {
+    background-color: rgba(54, 45, 45, 0.5);
+    color: red;
+    font-size: 20px;
+    font-family: "Showcard Gothic", "Helvetica", sans-serif;
+}
+
+
+/* this is a CSS comment */
+
+.box  {
+    border: 2px solid black;
+    padding: 5px 10px 15px 20px;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+ol {
+    list-style: lower-roman;
+}
+
+ul {
+    list-style: square;
+}
+
+table, th, td {
+    border: 1px solid black
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    transition: all .4s;
+}
+
+a:hover {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.banner {
+    height: 100px;
+    width: 500px;
+    background-color: red;
+    border-radius: 25px
+}
