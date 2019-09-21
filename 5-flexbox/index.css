@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Agency FB;
+    transition: all .7s;
+}
+
+.nav-container {
+    box-shadow: 0 4px 10px rgb(219, 219, 219);
+}
+
+.nav {
+    width: 95%;
+    height: 55px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links ul, .nav-icons ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    width: 40%;
+}
+
+.nav-icons {
+    width: 15%;
+}
+
+.logo {
+    font-size: 2em;
+}
+
+.nav-links ul li:hover {
+    color: rgb(59, 59, 255);
+    cursor: pointer;
+}
+
+i:hover {
+    transform: rotate(360deg);
+}
