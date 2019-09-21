@@ -1,0 +1,126 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    color: white;
+}
+
+.box div {
+    padding: 3px;
+}
+
+.justify-content {
+    background-color: rgb(37, 230, 255);
+    grid-column: 7/8;
+    grid-row: 1/2;
+}
+
+.flex-wrap {
+    background-color: rgb(37, 230, 255);
+    grid-column: 8/9;
+    grid-row: 1/2;
+}
+
+.flexbox {
+    background-color: rgb(0, 177, 201);
+    grid-column: 3/6;
+    grid-row: 2/3;
+}
+
+.flex-container {
+    background-color: rgb(37, 230, 255);
+    grid-column: 6/7;
+    grid-row: 2/3;
+}
+
+.flex-items {
+    background-color: rgb(37, 230, 255);
+    grid-column: 7/8;
+    grid-row: 2/3;
+}
+
+.flex-direction {
+    background-color: rgb(37, 230, 255);
+    grid-column: 8/9;
+    grid-row: 2/3;
+}
+
+.grid {
+    background-color: rgb(124, 0, 108);
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+.align-items {
+    background-color: rgb(37, 230, 255);
+    grid-column: 7/8;
+    grid-row: 3/4;
+}
+
+.grid-container {
+    background-color: rgb(192, 0, 166);
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.grid-items {
+    background-color: rgb(192, 0, 166);
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.responsive-design {
+    background-color: rgb(0, 143, 55);
+    grid-column: 5/8;
+    grid-row: 4/5;
+}
+
+.grid-template-columns {
+    background-color: rgb(192, 0, 166);
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+.grid-template-rows {
+    background-color: rgb(192, 0, 166);
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+
+.media-query {
+    background-color: rgb(98, 255, 151);
+    grid-column: 5/6;
+    grid-row: 5/6;
+}
+
+.image-resizing {
+    background-color: rgb(98, 255, 151);
+    grid-column: 6/7;
+    grid-row: 5/6;
+}
+
+.grid-column {
+    background-color: rgb(192, 0, 166);
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+
+.grid-row {
+    background-color: rgb(192, 0, 166);
+    grid-column: 2/3;
+    grid-row: 6/7;
+}

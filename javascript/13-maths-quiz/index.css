@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Futura", sans-serif
+}
+
+html, body, .main, .addition, .multiplication {
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    background-color: rgb(235, 235, 235)
+}
+
+.addition, .multiplication {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addition-title, .multiplication-title {
+    font-size: 25px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.addition-answer, .multiplication-answer {
+    width: 100%;
+    border: none;
+    height: 10%;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    outline: none;
+}
+
+.addition {
+    border-right: 3px solid rgb(50, 50, 50);
+}
+
+.multiplication {
+    border-left: 3px solid rgb(50, 50, 50);
+}
+
+.addition-question, .multiplication-question {
+    font-size: 150px;
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+}

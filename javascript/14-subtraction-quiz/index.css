@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Broadway, sans-serif;
+    height: 50%;
+    size: 50px;
+}
+
+.subtraction-title {
+    font-weight: bold;
+    color: black;
+    background-color: rgb(50, 50, 50)
+    font-size: 25px;
+}
+

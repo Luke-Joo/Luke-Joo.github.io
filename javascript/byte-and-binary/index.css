@@ -1,0 +1,11 @@
+.byte {
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
